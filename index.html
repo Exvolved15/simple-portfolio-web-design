@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background: url('background.mp4') no-repeat center center fixed;
+          background-size: cover;
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          margin: 0;
+        }
+
+        video.bg-video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        }
+
+        section, header, footer {
+          background-color: rgba(199, 196, 196, 0.705); /* gray transparent */
+          padding: 30px;
+          border-radius: 15px;
+          margin-bottom: 40px;
+          max-width: 900px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .center-image {
+          display: block;
+          margin: 0 auto;
+          width: 150px;
+          border-radius: 25px;
+        }
+
+        .center-text {
+          text-align: center;
+        }
+
+        .justify-text {
+          text-align: justify;
+          margin: 20px auto;
+          max-width: 600px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+  <video autoplay muted loop class="bg-video">
+    <source src="space_galaxy_stars.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <header>
+    <img src="YourImage.jpg" alt="photo profile" style="height: 150px; border-radius: 10px;" class="center-image">
+    <div>
+        <h1 class="center-text">Your Name</h1>
+        <p class="center-text">Network Engineering | Electronic Engineering | Tech Enthusiast</p>
+    </div>
+  </header>
+  
+  <section id="about">
+    <h2>About Me :</h2>
+    <p class="justify-text">your text goes here </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills :</h2>
+    <ul class="justify-text">
+      <li>Your text goes here</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects :</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal website made with HTML & CSS.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact : </h2>
+    <p>Email me at: YourEmail@gmail.com</p>
+    <p>Contact person : your number</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Exvolved</p>
+  </footer>
+</body>
+</html>
